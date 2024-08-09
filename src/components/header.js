@@ -50,7 +50,7 @@ function Header() {
         >
           {!Mq.sm ? (
             <a href="#landing">
-              <Text sx={lxStyle()}>Lx</Text>
+              <Text sx={lxStyle()}>J</Text>
             </a>
           ) : (
             <Text sx={lxStyle()}>Lx</Text>

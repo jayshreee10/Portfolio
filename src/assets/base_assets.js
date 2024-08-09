@@ -22,8 +22,19 @@ import pro2 from "./images/pro2.png";
 import pro3 from "./images/pro3.png";
 import handshake from "./handshake.gif";
 import error_404 from "./images/404.png";
-
+import html from "./icons/html-5.png"
+import typeScript from "./icons/typescript.png"
+import tailwind from "./icons/tailwind.png"
+import postman from "./icons/postman_icon.png"
+import java from "./icons/java.png"
+import obsidian from "./icons/obsidian.png"
 const images = {
+  html,
+  typeScript,
+  tailwind,
+  postman,
+  java,
+  obsidian,
   error_404,
   handshake,
   pro1,

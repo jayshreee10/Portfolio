@@ -1,27 +1,32 @@
+import { Icon } from "@mui/material";
 import images from "../assets/base_assets";
 
 const languages = [
   {
-    name: "C++",
-    icon: images.c_icon,
-  },
-  {
-    name: "Dart",
-    icon: images.dart_icon,
-  },
-  {
     name: "JavaScript",
     icon: images.js_icon,
+  },
+  {
+    name: "TypeScript",
+    icon:images.typeScript,
+  },
+  {
+    name: "Java",
+    icon: images.java,
+  },
+  {
+    name: "HTML5",
+    icon: images.html,
   },
 ];
 const lib_n_tech = [
   {
-    name: "Flutter",
-    icon: images.flutter_icon,
-  },
-  {
     name: "React",
     icon: images.react_icon,
+  },
+  {
+    name: "Tailwind",
+    icon: images.tailwind,
   },
   {
     name: "MUi",
@@ -32,8 +37,8 @@ const lib_n_tech = [
     icon: images.node_icon,
   },
   {
-    name: "Express",
-    icon: images.express_icon,
+    name: "Postman",
+    icon: images.postman,
   },
 
   {
@@ -68,8 +73,8 @@ const recommendation = [
     icon: images.devtoy_icon,
   },
   {
-    name: "AutoHotkey",
-    icon: images.autohotkey_icon,
+    name: "Obsidian",
+    icon: images.obsidian,
   },
   {
     name: "PowerToys",
@@ -84,17 +89,26 @@ export const tech_stack = {
 };
 
 export const about_me =
-  "Hey there, I hope you're doing well. I am 21 years old and a final-year undergraduate Computer Science student from India  🇮🇳  pursuing BTech at the National Institute of Science and Technology. An adaptable individual who is passionate ⚡ about developing apps and learning new 💡 technologies as well as an enthusiastic problem-solver who use code to do so 👀.  Having experience in Flutter and React, currently exploring the Backend / Server-side. As a result, you'll rarely find me AFK 🧑‍💻. Apart from coding, I enjoy improving my design and user interface skills, and also love 💜 to consume news and articles.";
+  "Greetings. I am a 22-year-old alumnus from India, having completed BTech at Parala Maharaja Engineering College. I am a versatile professional with a fervent passion ⚡ for web development and an avid interest in emerging 💡 technologies. As a proactive problem-solver, I leverage code to address complex challenges 👀. My background encompasses extensive experience in frontend development, and I am currently delving into backend/server-side technologies. Consequently, you will seldom find me away from my workstation 🧑‍💻. In addition to my coding pursuits, I am dedicated to advancing my design and user interface expertise, and I have a keen interest 💜 in staying abreast of current news and articles.";
 
 export const work_experience_two = {
-  company_name: "Embrays",
+  company_name: "Embrays Technologies",
   company_link: "https://embraystechnologies.com/",
-  date: "9 Dec(2021) - 12 Jan(2022)",
-  job_title: "Flutter Developer",
+  date: "14 June 2024 - Current",
+  job_title: "Software Developer Intern",
   points: [
-    "Contributed v2 of StockDaddy app from scratch, in which I was responsible for architecture and Business Logic and followed MVC architecture",
-    "Designed the Authentication and Authorization flow for the app login, signup, OTP by using RiverPod as state-management",
-    "Integrated 15+ GraphQL APIs by following best practices which include Authentication, Payment integration using Razor Pay, and other business logic.",
+    "Developed React.js Web Application for Money Transactions",
+    "Integrated 10+ REST APIs for various functionalities",
+    "Implemented local storage management, JWT token verification, and data validation",
+    "Managed secure API authentication and data transmission",
+    "Utilized React Router and Context API for efficient state management",
+    "Created advanced custom filters and paginated data display for enhanced user experience",
+    "Contributions to Embrays Technology's Official Website",
+    "Migrated website to React.js + Tailwind for better performance",
+    "Added a blog section using Hashnode's GraphQL API with React pagination",
+    "Developing additional features like a link shortener and QR generator for enhanced user engagement",
+    "Analyzed and improved Core Web Vitals (LCP, FID, CLS)",
+    "Implemented lazy loading, WebP images and deferring strategies, increasing performance scores from 60% to 97%",
   ],
   extra: {
     data1: "has 50K+ downloads",
@@ -143,35 +157,43 @@ export const projects_names = [
 
 export const projects_zero = {
   // picture: images.pro1,
-  name: " Extension Enabler",
+  name: "QR Generator",
   link: "https://github.com/narayann7/ExtensionEnabler",
   preview: "https://pub.dev/packages/extension_enabler",
   description:
-    "A Flutter Package (CLI App) that enables flutter web app as chromium based extension with simple command, Package automates setting up the configs with file manipulation and command arguments like (enable, update, and build).",
+    "QR Generator is an application that generates QR codes for input links, emails, text, mobile numbers, and more..",
 };
 export const projects_one = {
   picture: images.pro1,
-  name: "Ping-It",
-  link: "https://github.com/narayann7/ping-it",
+  name: "Tempstation",
+  link: "https://tempstation.web.app/",
   preview: "https://github.com/narayann7/ping-it#readme",
   description:
-    "Chat app using MERN stack, in which A user is authenticated by email and google with use JWT for verification. App use sockets for creating secure connections between users for chat.All the data and information are stored securely in a NoSQL database which is document-oriented. ",
+    "Tempstation is a weather app developed in React, offering real-time weather updates, detailed forecasts, and an intuitive user interface for a seamless weather-tracking experience. ",
 };
 
 export const projects_two = {
   picture: images.pro2,
-  name: "QuickTweets",
+  name: "Portfolio",
   link: "https://github.com/narayann7/QuickTweets",
   preview: "https://github.com/narayann7/QuickTweets#readme",
   description:
-    "Quick Tweets, get the tweets of that respective user with Twitter API. BLOC patten as statemanagment Firebase for authentication and storing the data",
+    "Jayshree Portfolio is a dynamic and responsive personal portfolio website built using React, showcasing my projects, skills, and professional experiences with a sleek and modern design.",
 };
 
 export const projects_three = {
   picture: images.pro3,
-  name: "PixelLab",
+  name: "SillySaga",
   link: "https://github.com/narayann7/pixelLab-WallpaperApp-",
-  preview: "https://github.com/narayann7/pixelLab-WallpaperApp-#readme",
+  preview: "https://sillysaaga.web.app/",
   description:
-    "Fetch data from an Pexels API with flutter. useState in a flutter app. pass down data in flutter widgets. show a grid view. Using Hero Animation. Save the image to local storage (Gallery) for Android",
+    "SillySaga is a fun game made with HTML, CSS, and JavaScript designed for entertainment purposes..",
+};
+export const projects_four = {
+  picture: images.pro3,
+  name: "Linktree",
+  link: "https://github.com/narayann7/pixelLab-WallpaperApp-",
+  preview: "https://connect.jayshree.tech/",
+  description:
+    "Link Tree project, built with HTML and CSS, consolidates all my social media links in one place, providing easy access for user interaction and engagement.",
 };
